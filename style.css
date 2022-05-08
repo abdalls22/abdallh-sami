@@ -160,7 +160,7 @@ p{
 .title-footer span{
     color: blue;
 }
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
     header{
         padding: 12px 9px;
     }
@@ -170,7 +170,7 @@ p{
 }
    
 
-@media (max-width:641px){
+@media screen and (max-width:641px){
     pody{
         font-size: 12px;
     }
@@ -179,14 +179,29 @@ p{
     }
     .main h3{
         font-size: 1.4em;
+    } 
+    .main-btm{
+       padding-left:12px ;
+       text-align:center ;
     }
+
+     .main div{
+         font-size: 12px;
+     }
+     .main div h2 span{
+         font-size: 10px;
+     }
 }
 
-@media (max-width:300px){
+@media screen and (max-width:300px){
     body{
         font-size: 10px;
     }
-    @media screen and (max-width:300px){
+   
+
+    
+}
+@media screen and (max-width:300px){
     }
      .main div h2 span{
         font-size: 40px;
@@ -198,5 +213,3 @@ p{
         }
 
     }
-    
-}
