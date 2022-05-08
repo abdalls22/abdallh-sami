@@ -186,5 +186,17 @@ p{
     body{
         font-size: 10px;
     }
+    @media screen and (max-width:300px){
+    }
+     .main div h2 span{
+        font-size: 40px;
+    }
+
+    @media screen and (max-width:420px){
+        header{
+            font-size: 15px;
+        }
+
+    }
     
 }
