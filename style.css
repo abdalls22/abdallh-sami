@@ -207,7 +207,7 @@ p{
         font-size: 40px;
     }
 
-    @media screen and (max-width:420px){
+  @media screen and (max-width:420px){
         header{
             font-size: 15px;
         }
